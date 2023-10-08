@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astronus.com/passenger1</title>
+</head>
+<body>
+    <div>
+        <img src="./passenger1.jpg" alt="" class="img-1">
+    </div>
+
+    <a href="./index.html">
+        <div>
+            <img src="./5264709179871870691.webp" alt="" class="back">
+        </div>
+    </a>
+
+    <a href="./ourteam2.html">
+        <div class="next-button">
+        </div>
+    </a>
+    
+    <style>
+        .img-1{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2; /* Ensures it's behind other content */
+            /* Use one of the following properties for the background */
+            background: url('animation.gif') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .next-button{
+            height: 40px;
+            width: 100px;
+            
+            position: absolute;
+            right: 630px;
+            bottom: 38px;
+        }
+        .back{
+            height: 100px;
+            width: 170px;
+        }
+        
+    </style>
+</body>
+</html>

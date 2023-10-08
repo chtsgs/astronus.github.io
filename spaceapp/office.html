@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astronus.com/office</title>
+</head>
+<body>
+    <div>
+        <img src="./office.jpg" alt="" class="office">
+    </div>
+
+    <a href="./solarsystem.html">
+        <div class="next">
+            NEXT
+        </div>
+    </a>
+    
+
+    <a href="./page2.html">
+        <div class="back">
+            BACK
+        </div>
+    </a>
+
+
+    <!-- <div>
+      <img src="./hello.jpg" alt="" class="hello">  
+    </div> -->
+    <style>
+        .office{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2; /* Ensures it's behind other content */
+            /* Use one of the following properties for the background */
+            background: url('animation.gif') no-repeat center center fixed;
+            background-size: cover;
+           height: 800px;
+        }
+        .next{
+            color: white;
+            position: absolute;
+            right: 60px;
+            font-size:xx-large;
+            bottom: 70px;
+            font-weight: 700;
+        }
+        .back{
+            color: white;
+            position: absolute;
+            left: 60px;
+            font-size:xx-large;
+            bottom: 70px;
+            font-weight: 700;
+        }
+        .hello{
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</body>
+</html>

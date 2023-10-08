@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astronus.com/solarsystem</title>
+</head>
+<body>
+    
+    <div>
+        <img src="./solar system.jpg" alt="" class="ss">
+    </div>
+    
+
+    <a href="./earth.html">
+        <div class="earth">
+
+        </div>
+        <div class="play">
+            <img src="./5266960979685554719 (1).webp" alt="" class="triangle">
+            
+        </div>
+    </a>
+
+
+    
+
+    <style>
+        .ss{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2; /* Ensures it's behind other content */
+            /* Use one of the following properties for the background */
+            background: url('animation.gif') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+
+
+        .back-button{
+            color: white;
+            font-size: x-large;
+            height: 40px;
+            width: 130px;
+            
+            position: absolute;
+            left: 90px;
+            top: 38px;
+        }
+        .earth{
+            height: 170px;
+            width: 170px;
+            border-radius: 50%;
+            
+            position: absolute;
+            top: 250px;
+            left: 280px;
+        }
+        .play{
+            position: relative;
+        }
+        .triangle{
+            height: 70px;
+            width: 100px;
+            margin-left: 300px;
+            margin-top: 285px;
+        }
+        
+    </style>
+</body>
+</html>

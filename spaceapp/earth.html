@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+            <source src="./video5266960979685554706.mp4" type="video/mp4">
+            <!-- Add additional video sources here for different formats -->
+        </video>
+        <div class="content">
+            <!-- Your content goes here -->
+        </div>
+    </div>
+
+
+    <a href="./comingsoon.html">
+        <div class="next">
+            NEXT
+        </div>
+    </a>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .next{
+            color: white;
+            position: absolute;
+            right: 60px;
+            font-size:xx-large;
+            bottom: 70px;
+            font-weight: 700;
+        }
+    </style>
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astronus.com/intro</title>
+</head>
+<body>
+
+    <div>
+        <img src="./intro pre.jpg" alt="" class="intro">
+        
+    </div>
+
+    <a href="./index.html">
+        <div class="back-button">
+            BACK
+        </div>
+    </a>
+    
+
+    <a href="./office.html">
+        <img src="./5264709179871870693.webp" alt="" class="next">
+    </a>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Apply the background image to the body element */
+        .intro {
+            margin: 0;
+            padding: 0;
+            background-image: url("./intro pre.jpg" ); /* Replace 'your-image.jpg' with your image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100vh; /* Set the height to 100% of the viewport height */
+            z-index: -1;
+            position: absolute;
+
+        }
+
+        .next {
+            z-index: 1;
+            position: absolute;
+            right: 90px;
+            top: 600px;
+            height: 100px;
+            width: 150px;
+        }
+        .back-button{
+            color: white;
+            font-size: x-large;
+            padding: 20px
+        }
+    </style>
+</body>
+</html>
